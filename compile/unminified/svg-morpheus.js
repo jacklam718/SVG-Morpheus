@@ -2,10 +2,10 @@
  * SVG Morpheus v0.1.8
  * https://github.com/alexk111/SVG-Morpheus
  *
- * Copyright (c) 2014 Alex Kaul
+ * Copyright (c) 2015 Alex Kaul
  * License: MIT
  *
- * Generated at Tuesday, December 2nd, 2014, 11:12:16 AM
+ * Generated at Sunday, October 11th, 2015, 1:08:36 AM
  */
 var SVGMorpheus=(function() {
 'use strict';
@@ -1022,6 +1022,8 @@ var getRGB = function (colour) {
   return {r: -1, g: -1, b: -1, opacity: -1, error: 1};
 };
 
+module.exports = SVGMorpheus;
+
 function SVGMorpheus(element, options, callback) {
   if (!element) {
     throw new Error('SVGMorpheus > "element" is required');
@@ -1459,4 +1461,5 @@ SVGMorpheus.prototype.to=function(iconId, options, callback) {
 };
 
 return SVGMorpheus;
+
 }());

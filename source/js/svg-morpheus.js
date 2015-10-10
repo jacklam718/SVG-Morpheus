@@ -1,5 +1,7 @@
 'use strict';
 
+module.exports = SVGMorpheus;
+
 function SVGMorpheus(element, options, callback) {
   if (!element) {
     throw new Error('SVGMorpheus > "element" is required');
